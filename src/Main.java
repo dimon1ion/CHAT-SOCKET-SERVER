@@ -1,5 +1,9 @@
+import services.ServerService;
+
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ServerService serverService = new ServerService();
+        serverService.start();
     }
 }
